@@ -1,3 +1,4 @@
+</div>
   </section>
 <!-- End of Front Page Body -->
 <!-- Start of Footer -->
