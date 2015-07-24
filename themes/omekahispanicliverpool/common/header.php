@@ -26,7 +26,7 @@
     <?php echo head_js(); ?>
  
 </head>
-<body class="body page-index clearfix">
+<body id="home" class="body page-index clearfix admin-bar">
 <!-- Start of Header -->
 <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
   <header>
