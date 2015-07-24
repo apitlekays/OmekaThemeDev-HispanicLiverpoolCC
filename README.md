@@ -1,5 +1,6 @@
 # HispanicLiverpoolOmeka
 ![Theme Image](https://github.com/digihum/OmekaThemeDev-HispanicLiverpoolCC/blob/master/themes/omekahispanicliverpool/theme.jpg)
+
 A Custom Omeka theme for Hispanic Liverpool Community Collection Project, prepared by Hafiz Hanif.
 
 This folder contains a complete Omeka installation. If you want to take a look at the custom theme, please head to **omekahispanicliverpool** folder in the theme directory.
