@@ -1,0 +1,508 @@
+body {
+  background-color: rgb(174, 174, 174);
+  font: 300 0.813em/1.38 Roboto;
+  color: rgb(255, 255, 255);
+}
+
+.number-items button {
+  top: -0.1em;
+  left: 51.427641369%;
+  z-index: 21;
+  width: 48.5700334821%;
+  height: 2.9em;
+  border: 0.2em solid rgb(91, 22, 46);
+  border-radius: 2.4em;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 1.538em;
+  font-weight: 700;
+  color: rgb(91, 22, 46);
+}
+
+.number-items button:hover {
+  background-color: rgb(255, 205, 117);
+}
+
+.number-items button:active {
+  background-color: rgb(228, 146, 0);
+}
+
+button {
+  display: block;
+  position: absolute;
+  line-height: 1.38;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  top: 79.538em;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  width: 960px;
+  height: 12.538em;
+  margin: 0 auto;
+  background-color: #350013;
+}
+
+footer img {
+  left: 0;
+  z-index: 1;
+  width: 93px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 46;
+  width: 960px;
+  height: 13.462em;
+  margin: 0 auto;
+  background-image: url('../images/hispanic-liverpool-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: left top;
+}
+
+.warwick-logo-new {
+  float: left;
+  width: 22.2875816993%;
+  height: 3.154em;
+  background-image: url('../images/logotype-colour-01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+header button {
+  top: 0.538em;
+  left: 77.6383196721%;
+  z-index: 31;
+  width: 21.3763661202%;
+  height: 3.231em;
+  border-radius: 0.231em;
+  background-color: rgb(247, 185, 74);
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(162, 39, 82);
+}
+
+header button:hover {
+  background-color: rgb(253, 203, 113);
+}
+
+header button:active {
+  background-color: rgb(249, 160, 0);
+}
+
+header img {
+  left: -0.0272331155%;
+  z-index: 44;
+  width: 165px;
+}
+
+header section {
+  top: 13.462em;
+  z-index: 36;
+  height: 6.538em;
+  background-color: #5b162e;
+}
+
+img {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+input {
+  display: block;
+  float: left;
+  width: 295px;
+  height: 4.231em;
+  padding: 0 0.769em;
+  background-color: #ee5188;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+section {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.disclaimer-container p {
+  margin-bottom: 1em;
+}
+
+.about-collection a{
+  float: right;
+  margin: 1.538em 39.98122% 0 0;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(247, 185, 74);
+}
+
+.black-bar {
+  position: absolute;
+  top: 3.077em;
+  left: 0;
+  height: 19.923em;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 48.095238095238095%, rgb(0, 0, 0) 100%);
+  background-image:    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 48.095238095238095%, rgb(0, 0, 0) 100%);
+  background-image:      -o-linear-gradient(270deg, rgba(0, 0, 0, 0) 48.095238095238095%, rgb(0, 0, 0) 100%);
+  background-image:     -ms-linear-gradient(270deg, rgba(0, 0, 0, 0) 48.095238095238095%, rgb(0, 0, 0) 100%);
+  background-image:         linear-gradient(180deg, rgba(0, 0, 0, 0) 48.095238095238095%, rgb(0, 0, 0) 100%);
+  background-repeat: no-repeat;
+}
+
+.contact a{
+  float: left;
+  margin-left: 10.56212%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(247, 185, 74);
+}
+
+.desc-text {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 18.846em;
+  margin-top: 0.846em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.desc-title {
+  float: left;
+  font-size: 1.538em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: rgb(247, 185, 74);
+}
+
+.disclaimer {
+  float: left;
+  width: 79.9984056122%;
+  min-height: 10.7em;
+  margin-left: 19.91594%;
+  font-size: 0.769em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(145, 145, 145);
+}
+
+.disclaimer-container {
+  position: relative;
+  float: left;
+  width: 61.1865234374%;
+  height: 8.231em;
+  margin: 2.308em 0 0 2.8125%;
+}
+
+.element {
+  visibility: hidden;
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 100%;
+  height: 25.769em;
+  background-color: #ffe5bb;
+}
+
+.featured-collection {
+  position: absolute;
+  top: 0;
+  left: 67.5027262813%;
+  z-index: 12;
+  width: 32.3882224645%;
+  height: 23em;
+}
+
+.featured-collection .black-bar {
+  z-index: 9;
+  width: 100%;
+}
+
+.featured-collection .img-base {
+  z-index: 8;
+}
+
+.featured-container {
+  position: absolute;
+  top: 1.308em;
+  left: 0;
+  right: 0;
+  z-index: 18;
+  width: 95.1041666666%;
+  height: 23em;
+  margin: 0 auto;
+}
+
+.featured-container-main {
+  top: 53.769em;
+  z-index: 19;
+  height: 25.769em;
+  background-color: rgb(255, 229, 187);
+}
+
+.featured-item {
+  position: absolute;
+  top: 0;
+  left: -0.0034078517%;
+  z-index: 17;
+  width: 32.3660714285%;
+  height: 23em;
+}
+
+.featured-item .black-bar {
+  z-index: 14;
+  width: 99.9312605752%;
+}
+
+.featured-item .img-base {
+  z-index: 13;
+}
+
+.home a{
+  position: absolute;
+  top: 0;
+  left: -0.171858217%;
+  z-index: 39;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(247, 185, 74);
+}
+
+.how-contribute a{
+  position: absolute;
+  top: 1.538em;
+  right: 25.5532786885%;
+  z-index: 33;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(247, 185, 74);
+}
+
+.about-collection a:hover,
+.contact a:hover,
+.home a:hover,
+.how-contribute a:hover,
+.project_page a:hover {
+  color: rgb(255, 205, 117);
+}
+
+.img-base {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 99.9316077441%;
+  height: 19.923em;
+  margin-top: 1em;
+}
+
+.insert-tag-cloud-here {
+  float: left;
+  clear: both;
+  width: 99.9316077441%;
+  height: 19.923em;
+  margin-top: 1em;
+}
+
+.item-title {
+  position: absolute;
+  top: 18.714em;
+  left: 0;
+  right: 0;
+  z-index: 15;
+  margin: 0 auto;
+  font-size: 1.077em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(247, 185, 74);
+}
+
+.item-title2 {
+  position: absolute;
+  top: 18.714em;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 0 auto;
+  font-size: 1.077em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(247, 185, 74);
+}
+
+.main-img {
+  position: absolute;
+  top: 0;
+  left: -0.0017057861%;
+  z-index: 24;
+  width: 548px;
+  height: 24.077em;
+  background: url('../images/project%20desc.png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.main-pro-desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 29;
+  width: 916px;
+  height: 24.077em;
+  margin: 0 auto;
+}
+
+.main_header {
+  position: absolute;
+  top: 0.692em;
+  left: 0;
+  right: 0;
+  z-index: 45;
+  width: 918px;
+  height: 11.692em;
+  margin: 0 auto;
+}
+
+.main_menu {
+  position: absolute;
+  top: 10.385em;
+  left: 69.4989106753%;
+  z-index: 40;
+  width: 30.3921568627%;
+  height: 1.308em;
+}
+
+.main_title {
+  float: left;
+  margin-left: 1.43885%;
+  font-size: 2.308em;
+  font-weight: 100;
+  line-height: 1.38;
+  color: #f7b94a;
+}
+
+.number {
+  position: absolute;
+  top: 0.65em;
+  left: 0;
+  z-index: 20;
+  font-size: 1.538em;
+  font-weight: 500;
+  line-height: 1.38;
+  color: rgb(91, 22, 46);
+}
+
+.number-collection {
+  top: 45.308em;
+  z-index: 23;
+  height: 8.462em;
+  background-color: rgb(247, 185, 74);
+}
+
+.number-items {
+  position: relative;
+  width: 672px;
+  height: 4.462em;
+  margin: 1.923em auto 0;
+}
+
+.pro-desc {
+  float: left;
+  width: 367px;
+  height: 24.077em;
+  margin-left: 59.82362%;
+  background-color: rgb(162, 39, 82);
+}
+
+.pro-desc-main {
+  top: 19.923em;
+  z-index: 30;
+  height: 25.385em;
+  background-color: rgb(91, 22, 46);
+}
+
+.project-desc {
+  float: left;
+  width: 91.0081743869%;
+  height: 21.769em;
+  margin: 0.923em 0 0 4.63641%;
+}
+
+.project_page a{
+  float: left;
+  margin-left: 27.26817%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(247, 185, 74);
+}
+
+.sc-bar {
+  position: relative;
+  width: 915px;
+  height: 4.231em;
+  margin: 1.154em auto 0;
+  background-color: #a22752;
+}
+
+.site_title {
+  position: absolute;
+  top: 6.846em;
+  left: -0.0272331155%;
+  z-index: 43;
+  width: 45.4248366013%;
+  height: 4.846em;
+}
+
+.subtitle {
+  float: left;
+  clear: both;
+  margin-left: 1.43885%;
+  font-size: 1.231em;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 5px;
+  color: rgb(247, 185, 74);
+}
+
+.tag-cloud-container {
+  position: absolute;
+  top: 0;
+  left: 33.6951335877%;
+  z-index: 7;
+  width: 32.3660714285%;
+  height: 23em;
+}
+
+.collection-text,
+.featured-text,
+.tags-cloud {
+  margin: 0 auto;
+  font-size: 1.538em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(91, 22, 46);
+}
