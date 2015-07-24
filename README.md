@@ -3,7 +3,7 @@
 
 A Custom Omeka theme for Hispanic Liverpool Community Collection Project, prepared by Hafiz Hanif.
 
-This folder contains a complete Omeka installation. If you want to take a look at the custom theme, please head to **omekahispanicliverpool** folder in the theme directory.
+_This folder contains a complete Omeka installation. If you want to take a look at the custom theme, please head to **omekahispanicliverpool** folder in the theme directory._
 
 This is a custom Omeka theme, developed based on Omeka's own Berlin theme. The concept of the theme derived from the main project website (http://www2.warwick.ac.uk/fac/arts/modernlanguages/research/hispanic/hispanicliverpool), including the colour scheme and the header image. The project is set to collect images and stories from the Hispanic community.
 
@@ -41,5 +41,5 @@ I've designed this theme based on one of the listed websites in the AWWWARDS web
 
 ## Useful Resources (Omeka Development)
 * Displaying total number of items (http://omeka.org/forums/topic/display-total-items-in-omeka-20)
-* Displaying list of tags (http://omeka.org/forums/topic/displaying-files-on-public-page)
+* Displaying tags cloud (http://omeka.readthedocs.org/en/latest/Reference/libraries/globals/tag_cloud.html)
 * more coming...
