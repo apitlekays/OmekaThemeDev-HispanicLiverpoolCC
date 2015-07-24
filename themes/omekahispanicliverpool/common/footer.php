@@ -1,34 +1,15 @@
-</div><!-- end content -->
-
-<footer role="contentinfo">
-
-    <div id="footer-content" class="center-div">
-        <?php if($footerText = get_theme_option('Footer Text')): ?>
-        <div id="custom-footer-text">
-            <p><?php echo get_theme_option('Footer Text'); ?></p>
-        </div>
-        <?php endif; ?>
-        <?php if ((get_theme_option('Display Footer Copyright') == 1) && $copyright = option('copyright')): ?>
-        <p><?php echo $copyright; ?></p>
-        <?php endif; ?>
-        <nav><?php echo public_nav_main()->setMaxDepth(0); ?></nav>
-        <p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p>
-
-    </div><!-- end footer-content -->
-
-     <?php fire_plugin_hook('public_footer', array('view'=>$this)); ?>
-
-</footer>
-
-<script type="text/javascript">
-    jQuery(document).ready(function(){
-        Omeka.showAdvancedForm();
-        Omeka.skipNav();
-        Omeka.megaMenu();
-        Berlin.dropDown();
-    });
-</script>
-
+  </section>
+<!-- End of Front Page Body -->
+<!-- Start of Footer -->
+  <footer class="clearfix">
+    <div class="disclaimer-container clearfix">
+      <a href="http://omeka.org/"><div class="omeka-logo"></div></a>
+      <div class="disclaimer">
+        <p>Disclaimer text&nbsp;</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+</div>
+    </div>
+  </footer>
+<!-- End of Footer -->
 </body>
-
 </html>
