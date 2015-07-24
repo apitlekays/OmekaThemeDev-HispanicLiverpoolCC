@@ -34,6 +34,7 @@ I've designed this theme based on one of the listed websites in the AWWWARDS web
 ## Lesson Learned
 ### From design perspective
 * To keep tab on what ever websites I've used as a reference when designing, so that it can be properly referenced in this document, for future use.
+* Absolute positioning should be avoided, in case there's an 'admin-bar' conflict.
 
 ### From development perspective
 *  To begin to use bootstrap v3 in future projects so that the code will be more manageable.
