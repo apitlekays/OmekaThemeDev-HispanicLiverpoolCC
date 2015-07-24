@@ -34,8 +34,8 @@ button {
 }
 
 footer {
-  position: absolute;
-  top: 79.538em;
+  position: relative;
+  top: 19.923em;
   left: 0;
   right: 0;
   z-index: 3;
@@ -260,7 +260,8 @@ section {
 }
 
 .featured-container-main {
-  top: 53.769em;
+	position:relative;
+  top: 19.923em;
   z-index: 19;
   height: 25.769em;
   background-color: rgb(255, 229, 187);
@@ -424,7 +425,8 @@ section {
 }
 
 .number-collection {
-  top: 45.308em;
+	position:relative;
+	top: 19.923em;
   z-index: 23;
   height: 8.462em;
   background-color: rgb(247, 185, 74);
@@ -446,6 +448,7 @@ section {
 }
 
 .pro-desc-main {
+	position:relative;
   top: 19.923em;
   z-index: 30;
   height: 25.385em;
