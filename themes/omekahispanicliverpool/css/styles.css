@@ -53,7 +53,7 @@ footer img {
 
 header {
   position: absolute;
-  top: 0;
+  top: 30;
   left: 0;
   right: 0;
   z-index: 46;
@@ -71,6 +71,16 @@ header {
   width: 22.2875816993%;
   height: 3.154em;
   background-image: url('../images/logotype-colour-01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.omeka-logo {
+  float: left;
+  width: 15%;
+  height: 8.231em;
+  background-image: url('../images/omeka-01.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left top;
@@ -193,8 +203,7 @@ section {
 }
 
 .disclaimer {
-  float: left;
-  width: 79.9984056122%;
+  width: 64%;
   min-height: 10.7em;
   margin-left: 19.91594%;
   font-size: 0.769em;
