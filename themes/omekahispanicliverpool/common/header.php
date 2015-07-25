@@ -33,7 +33,7 @@
     <div class="main_header">
 	  <div class="warwick-logo-new"></div>
       <div class="site_title clearfix">
-        <p class="main_title"><?php echo implode(' &middot; ', $titleParts); ?></p>
+        <p class="main_title"><?php echo option('site_title'); ?></p>
         <p class="subtitle">COMMUNITY COLLECTION</p>
       </div>
       <div class="main_menu clearfix">
@@ -44,10 +44,10 @@
     </div>
     <section class="search-contrib clearfix">
       <div class="sc-bar clearfix">
-        <input type="search">
-        <p class="about-collection"><a href="#">About the Collection</a></p>
-        <p class="how-contribute"><a href="#">How to Contribute</a></p>
-        <button>Contribute an Item</button>
+        <input type="search" placeholder="Search the Collection" onfocus="if(this.value == 'Search the Collection') { this.value = ''; }" value="Search the Collection">
+        <p class="about-collection"><a href="/about">About the Collection</a></p>
+        <p class="how-contribute"><a href="/contribute">How to Contribute</a></p>
+        <button onclick="window.location.href='/contribution'">Contribute an Item</button>
       </div>
     </section>
   </header>
