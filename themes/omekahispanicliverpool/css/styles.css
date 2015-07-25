@@ -518,14 +518,14 @@ section {
   text-align: center;
   color: rgb(91, 22, 46);
 }
-
+/* =====Styles for Contact Us page====*/
 #primary{
 	position:relative;
 	margin: 0 auto;
-	height: 780px;
+	height: auto;
 	width: 960px;
 	top: 260px;
-	padding: 20px 0;
+	padding: 20px 30px;
 	background-color: rgb(255, 229, 187);
 }
 
@@ -547,7 +547,7 @@ section {
 
 #simple-contact{
 	padding: 20px 0;
-	height: 450px;
+	height: 680px;
 }
 
 #contact-form{
@@ -561,10 +561,10 @@ fieldset {
 }
 
 form {
-  width: 960px;
-  height: 45.154em;
-  margin: auto 0;
-  background-color: rgb(255, 229, 187);
+  width: 750;
+  min-height: 300px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .inputs {
@@ -622,11 +622,12 @@ form {
 ._container-4 {
   height: 29.154em;
   margin-top: 3.231em;
+  margin-left: 8em;
 }
 
 ._container-5 {
   height: 18.538em;
-  padding-left: 224px;
+  padding-left: 165px;
 }
 
 ._container-5 input{
@@ -639,10 +640,47 @@ form {
 
 #recaptcha_widget_div{
 	position:absolute;
-	left: 390px;
+	left: 360px;
 }
 
 #recaptcha_response_field{
 	height: 1.3em;
 	color: white;
 }
+/* ====Styles for Contact Us page END=====*/
+
+
+/* ====Styles for Simple Page=====*/
+
+strong{
+	font-weight: 500;
+}
+
+em{
+	font-style: italic;
+}
+
+
+
+#primary p{
+	padding: 10px 0;
+}
+
+/* ====Styles for Simple Page END=====*/
+
+::-webkit-input-placeholder{
+	color:#ffffff;
+	padding-left: 10px;
+}
+
+/* ====Styles for Contribution Page=====*/
+
+#contribution-item-metadata{
+	text-align: center;
+}
+
+#contribution-item-metadata .inputs{
+	float:inherit;
+}
+
+/* ====Styles for Contribution Page END=====*/
