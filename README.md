@@ -43,4 +43,6 @@ I've designed this theme based on one of the listed websites in the AWWWARDS web
 ## Useful Resources (Omeka Development)
 * Displaying total number of items (http://omeka.org/forums/topic/display-total-items-in-omeka-20)
 * Displaying tags cloud (http://omeka.readthedocs.org/en/latest/Reference/libraries/globals/tag_cloud.html)
-* more coming...
+* Tips on customising file structure to introduce new pages (http://omeka.readthedocs.org/en/latest/Tutorials/modifyingThemes.html)
+* Tutorial on the basics of Omeka Theme development (http://interactivemechanics.com/blog/the-basics-of-building-omeka-themes/)
+* Tutorial on setting up a proper file structure for introducing new pages in Omeka via Simple Pages plugin (http://interactivemechanics.com/blog/page-templates-with-omeka-simple-pages/)
