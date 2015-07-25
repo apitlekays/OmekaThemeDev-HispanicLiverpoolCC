@@ -33,7 +33,7 @@
     <div class="main_header">
 	  <div class="warwick-logo-new"></div>
       <div class="site_title clearfix">
-        <p class="main_title">The Hispanic Liverpool</p>
+        <p class="main_title"><?php echo implode(' &middot; ', $titleParts); ?></p>
         <p class="subtitle">COMMUNITY COLLECTION</p>
       </div>
       <div class="main_menu clearfix">
