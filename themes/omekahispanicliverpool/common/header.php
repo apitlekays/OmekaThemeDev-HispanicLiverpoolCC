@@ -38,8 +38,8 @@
       </div>
       <div class="main_menu clearfix">
         <p class="home"><a href="/">Home</a></p>
-        <p class="project_page"><a href="#">Project Page</a></p>
-        <p class="contact"><a href="#">Contact Us</a></p>
+        <p class="project_page"><a href="http://www2.warwick.ac.uk/fac/arts/modernlanguages/research/hispanic/hispanicliverpool/" target="_blank">Project Page</a></p>
+        <p class="contact"><a href="/contact">Contact Us</a></p>
       </div>
     </div>
     <section class="search-contrib clearfix">

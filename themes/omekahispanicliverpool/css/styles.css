@@ -1,7 +1,7 @@
 body {
   background-color: rgb(174, 174, 174);
   font: 300 0.813em/1.38 Roboto;
-  color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 1);
 }
 
 .number-items button {
@@ -517,4 +517,132 @@ section {
   line-height: 1.38;
   text-align: center;
   color: rgb(91, 22, 46);
+}
+
+#primary{
+	position:relative;
+	margin: 0 auto;
+	height: 780px;
+	width: 960px;
+	top: 260px;
+	padding: 20px 0;
+	background-color: rgb(255, 229, 187);
+}
+
+#primary h1{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+#form-instructions{
+	text-align: center;
+}
+
+#flash{
+	text-align: center;
+	color: #ff0000;
+	font-weight: 700;
+}
+
+#simple-contact{
+	padding: 20px 0;
+	height: 450px;
+}
+
+#contact-form{
+	height: 400px;
+}
+
+fieldset {
+  width: 66.0416666666%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form {
+  width: 960px;
+  height: 45.154em;
+  margin: auto 0;
+  background-color: rgb(255, 229, 187);
+}
+
+.inputs {
+  float: right;
+
+}
+
+.field-1 {
+  width: 80.2858903265%;
+  height: 5.154em;
+  margin: 0 auto;
+
+}
+
+.field-2 {
+  width: 80.3033292231%;
+  height: 5.154em;
+  margin: 1.308em auto 0;
+
+}
+
+.field-3 {
+  width: 80.3353884093%;
+  height: 14.077em;
+  margin: 1.308em auto 0;
+
+}
+
+.field-4 {
+  float: left;
+  width: 48.4239063462%;
+  height: 3.692em;
+  margin: 0.385em 0 0 25.6759099999%;
+
+}
+
+.inputs-1 {
+  width: 67.7799607072%;
+  height: 5.154em;
+  margin-right: 0.19646%;
+}
+
+.inputs-2 {
+  width: 67.9175751619%;
+  height: 5.154em;
+  margin-right: 0.00921%;
+}
+
+.inputs-3 {
+  width: 68.010191552%;
+  height: 14.077em;
+  margin-right: 0.0061399999%;
+}
+
+._container-4 {
+  height: 29.154em;
+  margin-top: 3.231em;
+}
+
+._container-5 {
+  height: 18.538em;
+  padding-left: 224px;
+}
+
+._container-5 input{
+  margin-top:  100px;
+}
+
+.inputs-3 textarea{
+	padding: 10px;
+}
+
+#recaptcha_widget_div{
+	position:absolute;
+	left: 390px;
+}
+
+#recaptcha_response_field{
+	height: 1.3em;
+	color: white;
 }
