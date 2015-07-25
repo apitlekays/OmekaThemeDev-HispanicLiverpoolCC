@@ -44,7 +44,7 @@
     </div>
     <section class="search-contrib clearfix">
       <div class="sc-bar clearfix">
-        <input type="search" placeholder="Search the Collection" onfocus="if(this.value == 'Search the Collection') { this.value = ''; }" value="Search the Collection">
+        <input type="search" placeholder="Search the Collection">
         <p class="about-collection"><a href="/about">About the Collection</a></p>
         <p class="how-contribute"><a href="/contribute">How to Contribute</a></p>
         <button onclick="window.location.href='/contribution'">Contribute an Item</button>
