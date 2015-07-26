@@ -31,6 +31,7 @@ supported by the University of Warwick Digital Humanities Developer Team, led by
 * Simple Contact Form
 * Simple Pages
 * User Profiles
+
 _*some plugins depend on other plugins to work_
 
 ## Todo
