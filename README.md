@@ -35,9 +35,23 @@ supported by the University of Warwick Digital Humanities Developer Team, led by
 _*some plugins depend on other plugins to work_
 
 ## Todo
-* Templating web pages
-* Moving to live server
-* Link everything to database
+* ~~Templating web pages~~
+* ~~Moving to live server~~
+* Link everything to database. Problematic issues/pages includes (26th July 2015, 9:07pm):
+..* register
+..* ~~login~~
+..* lost password
+..* search function
+..* featured item
+..* featured collection
+..* items/browse
+..* items/show
+..* items/tags
+..* collections/show
+..* collections/browse
+
+
+
 
 ## Design Influences
 I've designed this theme based on one of the listed websites in the AWWWARDS website. Colour scheme is based on the existing project website hosted under University of Warwick's website (link above). Only 1 font is used i.e. Roboto, with some variations of font-weight an font-size, to differentiate between headings and body copy. This helps the site to look simple, clean, and consistent throughout the site. 
