@@ -2,12 +2,14 @@
 $pageTitle = __('Forgot Password');
 echo head(array('title' => $pageTitle, 'bodyclass' => 'login'), $header);
 ?>
+<div id="primary">
 <h1><?php echo $pageTitle; ?></h1>
 <p id="login-links">
 <span id="backtologin"><?php echo link_to('users', 'login', __('Back to Log In')); ?></span>
 </p>
 
 <p class="clear"><?php echo __('Enter your email address to retrieve your password.'); ?></p>
+<div class="forgot-divs">
 <?php echo flash(); ?>
 <form method="post" accept-charset="utf-8">
     <div class="field">        
@@ -17,4 +19,6 @@ echo head(array('title' => $pageTitle, 'bodyclass' => 'login'), $header);
 
     <input type="submit" class="submit" value="<?php echo __('Submit'); ?>" />
 </form>
+</div>
+</div>
 <?php echo foot(array(), $footer); ?>
