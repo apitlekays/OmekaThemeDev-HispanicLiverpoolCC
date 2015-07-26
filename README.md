@@ -43,7 +43,7 @@ _*some plugins depend on other plugins to work_
   * lost password
   * search function
   * featured item
-  * featured collection
+  * ~~featured collection~~
   * items/browse
   * items/show
   * items/tags
@@ -76,3 +76,4 @@ I've designed this theme based on one of the listed websites in the AWWWARDS web
 * Tips on customising file structure to introduce new pages (http://omeka.readthedocs.org/en/latest/Tutorials/modifyingThemes.html)
 * Tutorial on the basics of Omeka Theme development (http://interactivemechanics.com/blog/the-basics-of-building-omeka-themes/)
 * Tutorial on setting up a proper file structure for introducing new pages in Omeka via Simple Pages plugin (http://interactivemechanics.com/blog/page-templates-with-omeka-simple-pages/)
+* Tips on how to edit Featured Items/Collections (http://omeka.org/forums/topic/how-to-edit-recently-added-items)
