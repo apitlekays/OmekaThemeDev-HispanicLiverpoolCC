@@ -40,15 +40,16 @@ _*some plugins depend on other plugins to work_
 * Link everything to database. Problematic issues/pages includes (26th July 2015, 9:07pm):
   * register
   * ~~login~~
-  * lost password
+  * ~~lost password~~
   * search function
-  * featured item
+  * ~~featured item~~
   * ~~featured collection~~
   * items/browse
   * items/show
   * items/tags
   * collections/show
   * collections/browse
+  * disclaimer text
 
 
 
