@@ -16,7 +16,7 @@
   </section>
   <section class="number-collection clearfix">
     <div class="number-items">
-      <button>Browse the Collection</button>
+      <button>Click here to see all items</button>
       <p class="number">There 
 	      <?php if (total_records('Item') === 0){ ?>
 	      <?php echo __('is'); ?>
@@ -29,7 +29,7 @@
 	      <?php } else { ?>
 	      <?php echo __('items'); ?>
 	      <?php } ?>
-	       in our collection</p>
+	       in our community collection</p>
     </div>
   </section>
   <section class="featured-container-main clearfix">
