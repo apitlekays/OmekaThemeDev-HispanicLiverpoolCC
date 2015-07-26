@@ -23,6 +23,16 @@ supported by the University of Warwick Digital Humanities Developer Team, led by
 ## Uses
 * Macaw for fast html,css, and javascript templating
 
+## Plugins Used
+* Commenting
+* Contribution
+* Guess User
+* Record Relations
+* Simple Contact Form
+* Simple Pages
+* User Profiles
+_*some plugins depend on other plugins to work_
+
 ## Todo
 * Templating web pages
 * Moving to live server
