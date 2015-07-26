@@ -16,15 +16,15 @@
   </section>
   <section class="number-collection clearfix">
     <div class="number-items">
-      <button>Click here to see all items</button>
+      <button onclick="window.location.href='/items/browse'">Click here to see all items</button>
       <p class="number">There 
-	      <?php if (total_records('Item') === 0){ ?>
+	      <?php if (total_records('Item') <= 1){ ?>
 	      <?php echo __('is'); ?>
 	      <?php } else { ?>
 	      <?php echo __('are'); ?>
 	      <?php } ?>
 	      <?php echo total_records('Item'); ?> 
-	      <?php if (total_records('Item') === 0){ ?>
+	      <?php if (total_records('Item') <= 1){ ?>
 	      <?php echo __('item'); ?>
 	      <?php } else { ?>
 	      <?php echo __('items'); ?>
@@ -37,19 +37,27 @@
     <div class="featured-container">
       <div class="featured-item clearfix">
         <p class="featured-text">Featured Item</p>
-        <div class="img-base"></div>
-        <p class="item-title">Item Title</p>
-        <div class="black-bar"></div>
+	        <?php if (get_theme_option('Display Featured Item') == 1): ?>
+  	<!-- Featured Item -->
+        <?php echo random_featured_items(1); ?>
+    <?php endif; ?>
+    <div class="black-bar"></div>
       </div>
       <div class="featured-collection clearfix">
         <p class="collection-text">Featured Collection</p>
+        <?php if (get_theme_option('Display Featured Collection')): ?>
+    <!-- Featured Collection -->
+        <?php echo random_featured_collection(1); ?>
+    <?php endif; ?>
         <div class="img-base"></div>
-        <p class="item-title2">Item Title</p>
         <div class="black-bar"></div>
       </div>
       <div class="tag-cloud-container clearfix">
         <p class="tags-cloud">Tags Cloud</p>
-        <div class="insert-tag-cloud-here"></div>
+        <div class="insert-tag-cloud-here">
+	        <?php $tags = get_records('Tag',array('sort_field' => 'count', 'sort_dir'=>'d', 'type'=>'Item'), 20); ?>
+		    <?php echo tag_cloud($tags, url('items/browse'),4,20); ?>
+        </div>
       </div>
     </div>
 <?php echo foot(); ?>
