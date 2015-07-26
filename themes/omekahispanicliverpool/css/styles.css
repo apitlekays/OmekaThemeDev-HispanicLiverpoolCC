@@ -137,7 +137,7 @@ input {
   background-color: #ee5188;
   font-size: 1em;
   line-height: 1.38;
-  color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 1);
 }
 
 section {
@@ -434,7 +434,7 @@ section {
 
 .number-items {
   position: relative;
-  width: 672px;
+  width: 810px;
   height: 4.462em;
   margin: 1.923em auto 0;
 }
@@ -518,15 +518,16 @@ section {
   text-align: center;
   color: rgb(91, 22, 46);
 }
-/* =====Styles for Contact Us page====*/
+
 #primary{
 	position:relative;
 	margin: 0 auto;
+	min-height: 300px;
 	height: auto;
 	width: 960px;
 	top: 260px;
 	padding: 20px 30px;
-	background-color: rgb(255, 229, 187);
+	background-color: rgba(255, 229, 186, 1);
 }
 
 #primary h1{
@@ -535,6 +536,11 @@ section {
 	font-weight: 700;
 }
 
+#primary p{
+	text-align: center;
+}
+
+/* =====Styles for Contact Us page====*/
 #form-instructions{
 	text-align: center;
 }
@@ -562,12 +568,11 @@ fieldset {
 
 form {
   width: 750;
-  min-height: 300px;
   height: auto;
   margin: 0 auto;
 }
 
-.inputs {
+.field .inputs {
   float: right;
 
 }
@@ -668,10 +673,21 @@ em{
 
 /* ====Styles for Simple Page END=====*/
 
+
+/* ====Styles for Search Bar=====*/
+
 ::-webkit-input-placeholder{
 	color:#ffffff;
 	padding-left: 10px;
 }
+
+.searchbar{
+	width: 315px;
+	height: 55px !important;
+	float: left;
+}
+
+/* ====Styles for Search Bar END=====*/
 
 /* ====Styles for Contribution Page=====*/
 
@@ -679,8 +695,145 @@ em{
 	text-align: center;
 }
 
+
 #contribution-item-metadata .inputs{
 	float:inherit;
 }
 
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+#contribution-confirm-submit .inputs{
+	float:left;
+	display:inline-block;
+}
+
+#contribution-type-form{
+	padding-top: 30px;
+	color: black;
+}
+
+#contribution-type-form h2{
+	font-size: 1.5em;
+	font-weight: 700;
+
+}
+
+#contribution-type-form .field{
+	padding-bottom: 70px;
+}
+
+#contribution-type-form input{
+	background-color: #ffffff;
+	width: 595px;
+}
+
+#contribution-type-form #contributed_file{
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#contribution-type-form textarea {
+	width: 595px;
+	height: 100px;
+	padding: 10px;
+	margin-bottom: -55px;
+}
+
+#contribution-type-form .explanation {
+	width: 595px;
+	text-align: center;
+	font-style: italic;
+}
+
+.field #contributed_file{
+	text-align: -webkit-center;
+}
+
 /* ====Styles for Contribution Page END=====*/
+
+/* ====Styles for Registration Form Page=====*/
+
+.register_form{
+	width: 595px;
+	min-height: 500px;
+	margin: 0 auto;
+	
+}
+
+.register_form .field{
+	width: 595px;
+}
+
+.register_form input{
+	background-color: #ffffff;
+}
+
+.register_form .inputs input{
+	float:right;
+}
+
+.register_form #submit{
+	background-color: #ee5188;
+}
+
+/* ====Styles for Registration Form Page END=====*/
+
+/* ====Styles for Login Page=====*/
+
+#login-form{
+	width:595px; 
+	position: absolute;
+	left: 180px;
+	padding-top: 20px;
+}
+
+#login-form #submit{
+	position:absolute;
+	left: 160px;
+}
+
+#fieldset-login .field{
+	padding-bottom: 80px;
+}
+
+#login-form input{
+	background-color: #ffffff;
+}
+
+#login-form #submit{
+	background-color: #ee5188;
+}
+
+.login-divs{
+	min-height: 400px;
+}
+
+/* ====Styles for Login Page END=====*/
+
+/* ====Styles for Forgot Password Page=====*/
+
+
+
+/* ====Styles for Forgot Password Page END=====*/
