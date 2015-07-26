@@ -41,6 +41,9 @@ I've designed this theme based on one of the listed websites in the AWWWARDS web
 * To have a proper steps of setting up projects in local development environment.
 * SimpleContactForm needs to be edited in its original plugin folder, unlike Simple Pages that can be replaced with its own directory in the theme folder. For the Simple Pages use case, see tutorial from InteractiveMechanics, below.
 * GuestUser register.php _h1_ heading needed to be moved, to produce the same look between pages.
+* To configure HTML layout for login/forgotpassword etc pages, head to _application/views/scripts/users_ folder.
+* To configure HTML layout for SignUp page, head to _plugins/GuessUser/views/public/user_ folder.
+* Wrap everything between header and footer, a div with an id 'primary'.
 
 ## Useful Resources (Omeka Development)
 * Displaying total number of items (http://omeka.org/forums/topic/display-total-items-in-omeka-20)
