@@ -40,7 +40,7 @@ I've designed this theme based on one of the listed websites in the AWWWARDS web
 * To begin to use bootstrap v3 in future projects so that the code will be more manageable.
 * To have a proper steps of setting up projects in local development environment.
 * SimpleContactForm needs to be edited in its original plugin folder, unlike Simple Pages that can be replaced with its own directory in the theme folder. For the Simple Pages use case, see tutorial from InteractiveMechanics, below.
-* GuestUser register.php <h1> heading needed to be moved, to produce the same look between pages.
+* GuestUser register.php _h1_ heading needed to be moved, to produce the same look between pages.
 
 ## Useful Resources (Omeka Development)
 * Displaying total number of items (http://omeka.org/forums/topic/display-total-items-in-omeka-20)
