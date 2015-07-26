@@ -38,17 +38,17 @@ _*some plugins depend on other plugins to work_
 * ~~Templating web pages~~
 * ~~Moving to live server~~
 * Link everything to database. Problematic issues/pages includes (26th July 2015, 9:07pm):
-..* register
-..* ~~login~~
-..* lost password
-..* search function
-..* featured item
-..* featured collection
-..* items/browse
-..* items/show
-..* items/tags
-..* collections/show
-..* collections/browse
+  * register
+  * ~~login~~
+  * lost password
+  * search function
+  * featured item
+  * featured collection
+  * items/browse
+  * items/show
+  * items/tags
+  * collections/show
+  * collections/browse
 
 
 
