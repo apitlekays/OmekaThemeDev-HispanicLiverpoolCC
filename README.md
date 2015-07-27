@@ -45,7 +45,7 @@ _*some plugins depend on other plugins to work_
   * ~~featured item~~
   * ~~featured collection~~
   * ~~items/browse~~
-  * items/show
+  * ~~items/show~~
   * ~~items/tags~~
   * ~~collections/show~~
   * ~~collections/browse~~
