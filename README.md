@@ -46,7 +46,7 @@ _*some plugins depend on other plugins to work_
   * ~~featured collection~~
   * ~~items/browse~~
   * items/show
-  * items/tags
+  * ~~items/tags~~
   * collections/show
   * collections/browse
   * disclaimer text
