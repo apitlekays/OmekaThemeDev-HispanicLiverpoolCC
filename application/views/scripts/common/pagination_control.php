@@ -4,13 +4,12 @@ if ($this->pageCount > 1):
 ?>
 <nav class="pagination-nav" aria-label="<?php echo __('Pagination'); ?>">
     <ul class="pagination">
-        <?php if (isset($this->previous)): ?>
+
         <!-- Previous page link -->
         <li class="pagination_previous">
             <?php $getParams['page'] = $previous; ?>
             <a rel="prev" href="<?php echo html_escape($this->url(array(), null, $getParams)); ?>"><?php echo __('Previous Page'); ?></a>
         </li>
-        <?php endif; ?>
 
         <li class="page-input">
         <form action="<?php echo html_escape($this->url()); ?>" method="get" accept-charset="utf-8">
