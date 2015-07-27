@@ -44,7 +44,7 @@ _*some plugins depend on other plugins to work_
   * search function
   * ~~featured item~~
   * ~~featured collection~~
-  * items/browse
+  * ~~items/browse~~
   * items/show
   * items/tags
   * collections/show
