@@ -4,7 +4,6 @@ if ($this->pageCount > 1):
 ?>
 <nav class="pagination-nav" aria-label="<?php echo __('Pagination'); ?>">
     <ul class="pagination">
-
         <!-- Previous page link -->
         <li class="pagination_previous">
             <?php $getParams['page'] = $previous; ?>

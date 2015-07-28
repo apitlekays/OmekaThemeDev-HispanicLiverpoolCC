@@ -11,7 +11,7 @@
     <fieldset class="_container-4 clearfix">
       
       <div class="field field-1 clearfix">
-	      <?php echo $this->formLabel('name', 'Your Names: '); ?>
+	      <?php echo $this->formLabel('name', 'Your Name: '); ?>
         <div class="inputs inputs-1">
 	        <?php echo $this->formText('name', $name, array('class'=>'textinput')); ?>
         </div>

@@ -7,9 +7,9 @@ echo head(array('title' => $pageTitle, 'bodyclass' => 'login'), $header);
 <p id="login-links">
 <span id="backtologin"><?php echo link_to('users', 'login', __('Back to Log In')); ?></span>
 </p>
-
-<p class="clear"><?php echo __('Enter your email address to retrieve your password.'); ?></p>
 <div class="forgot-divs">
+<p class="clear"><?php echo __('Enter your email address to retrieve your password.'); ?></p>
+
 <?php echo flash(); ?>
 <form method="post" accept-charset="utf-8">
     <div class="field">        

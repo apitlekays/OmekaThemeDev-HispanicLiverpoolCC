@@ -35,27 +35,19 @@
   <section class="featured-container-main clearfix">
     <div class="element"></div>
     <div class="featured-container">
-      <div class="featured-item clearfix">
-        <p class="featured-text">Featured Item</p>
 	        <?php if (get_theme_option('Display Featured Item') == 1): ?>
   	<!-- Featured Item -->
-        <?php echo random_featured_items(1); ?>
-    <?php endif; ?>
-    <div class="black-bar"></div>
-      </div>
-      <div class="featured-collection clearfix">
-        <p class="collection-text">Featured Collection</p>
+        <?php echo random_featured_items(5); ?>
+    <?php endif; ?>      
         <?php if (get_theme_option('Display Featured Collection')): ?>
     <!-- Featured Collection -->
-        <?php echo random_featured_collection(1); ?>
+        <?php echo random_featured_collection(5); ?>
     <?php endif; ?>
-        <div class="img-base"></div>
-        <div class="black-bar"></div>
-      </div>
+
       <div class="tag-cloud-container clearfix">
         <p class="tags-cloud">Tags Cloud</p>
         <div class="insert-tag-cloud-here">
-	        <?php $tags = get_records('Tag',array('sort_field' => 'count', 'sort_dir'=>'d', 'type'=>'Item'), 20); ?>
+	        <?php $tags = get_records('Tag',array('sort_field' => 'count', 'sort_dir'=>'d', 'type'=>'Item'),200); ?>
 		    <?php echo tag_cloud($tags, url('items/browse'),4,20); ?>
         </div>
       </div>

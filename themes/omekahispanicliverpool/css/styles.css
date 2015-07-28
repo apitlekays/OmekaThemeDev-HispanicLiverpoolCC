@@ -6,9 +6,9 @@ body {
 
 .number-items button {
   top: -0.1em;
-  left: 51.427641369%;
+  left: 53.427641369%;
   z-index: 21;
-  width: 48.5700334821%;
+  width: 45.5700334821%;
   height: 2.9em;
   border: 0.2em solid rgb(91, 22, 46);
   border-radius: 2.4em;
@@ -96,7 +96,7 @@ header button {
   background-color: rgb(247, 185, 74);
   font-size: 1em;
   font-weight: 400;
-  color: rgb(162, 39, 82);
+  color: rgba(163, 39, 82, 1);
 }
 
 header button:hover {
@@ -229,6 +229,7 @@ section {
 
 .featured-collection {
 	text-align: center;
+	overflow: hidden;
   position: absolute;
   top: 0;
   left: 67.5027262813%;
@@ -236,6 +237,20 @@ section {
   width: 32.3882224645%;
   height: 23em;
 }
+
+.featured-collection .item-title2{
+	position:absolute;
+	top:235px;
+}
+
+.featured-collection a{
+	color: rgb(247,185, 74);
+}
+
+.featured-collection a:hover{
+	color: rgba(255, 222, 164, 1);
+}
+
 
 .featured-collection .black-bar {
   z-index: 9;
@@ -285,6 +300,19 @@ section {
   z-index: 13;
 }
 
+.featured-item .item-title{
+	position:absolute;
+	top:235px;
+}
+
+.featured-item a{
+	color: rgb(247,185, 74);
+}
+
+.featured-item a:hover{
+	color: rgba(255, 222, 164, 1);
+}
+
 .home a{
   position: absolute;
   top: 0;
@@ -330,6 +358,7 @@ section {
   width: 99.9316077441%;
   height: 19.923em;
   margin-top: 1em;
+  overflow:scroll;
 }
 
 .item-title {
@@ -496,7 +525,7 @@ section {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 5px;
-  color: rgb(247, 185, 74);
+  color: rgba(248, 184, 74, 1);
 }
 
 .tag-cloud-container {
@@ -816,12 +845,22 @@ select {
 	background-color: #ffffff;
 }
 
-.register_form .inputs input{
-	float:right;
+.register_form .field #username{
+	margin-left: 190px;
 }
 
 .register_form #submit{
 	background-color: #ee5188;
+	position:absolute;
+	top: 550px;
+	left:350px;
+	width: 200px;
+	height: 50px;
+}
+
+.register_form #recaptcha_widget_div{
+	position: absolute;
+	top:400px;
 }
 
 /* ====Styles for Registration Form Page END=====*/
@@ -894,3 +933,330 @@ select {
 	background-color: #f46b9b;
 }
 /* ====Styles for Tags Cloud END=====*/
+
+/* ====Styles for Forgot Password Page=====*/
+
+.forgot-divs{
+	width: 595px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.forgot-divs p{
+	text-align: center;
+}
+
+.forgot-divs form{
+	float:left;
+	display: inline-block;
+	height: 250px;
+	width: 595px;
+}
+
+.forgot-divs .field{
+	text-align: center;
+}
+
+.forgot-divs .field input{
+	float:none;
+	margin:0 auto;
+	width: 300px;
+	background-color: white;
+}
+
+.forgot-divs form .submit{
+	margin: 20px auto;
+	float: none;
+	width: 200px;
+	height: 50px;
+}
+
+/* ====Styles for Forgot Password Page END=====*/
+
+/* ====Styles for items/browse Page=====*/
+
+.items-nav.navigation.secondary-nav{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.items-nav.navigation.secondary-nav li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.pagination{
+	height: 28px;
+	margin: 20px 0px;
+}
+
+.pagination li{
+	text-align: center;
+	display: block;
+	float: left;
+	width: 33%;
+	vertical-align: middle;
+}
+
+#sort-links{
+	margin: 10px;
+	height: 40px;
+	padding: 5px;
+	background-color: #f8cfcf;
+}
+
+#sort-links .sort-label{
+	font-weight: 400;
+}
+
+#sort-links li{
+	display: inline;
+	float:left;
+	padding-right: 20px;
+}
+/* ====Styles for items/browse Page END=====*/
+
+/* ====Styles for dynamic Cards=====*/
+
+.dynamic-card-section{
+	margin-left: 20px;
+}
+
+.card-element {
+  /*float: left;*/
+  display: inline-block;
+  margin: 20px;
+  clear: both;
+  width: 245px;
+  min-height: 27em;
+  height:auto;
+  /*margin-left: 10%;*/
+  background-color: rgba(248, 184, 74, 1);
+  box-shadow: 0px 5px 5px #888888;
+}
+
+.card-element-collection {
+  /*float: left;*/
+  display: inline-block;
+  margin: 20px;
+  clear: both;
+  width: 245px;
+  min-height: 21em;
+  height:auto;
+  /*margin-left: 10%;*/
+  background-color: rgba(248, 184, 74, 1);
+  box-shadow: 0px 5px 5px #888888;
+}
+
+.card-image {
+  position: relative;
+  float: left;
+  z-index: 58;
+  width: 222px;
+  height: 18.923em;
+  margin: 0.923em 0 0 5.29337%;
+  background-color: rgb(255, 255, 255);
+}
+
+.card-image-black-bar {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 59;
+  width: 222px;
+  height: 18.923em;
+  margin: -18.923em 0 0 5.29337%;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  background-image:    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  background-image:      -o-linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  background-image:     -ms-linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  background-image:         linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
+
+.card-tags {
+  width: 222px;
+  height: 4.077em;
+  margin: 20.308em auto 0;
+}
+
+.card-tags a:hover{
+	text-decoration: underline;
+}
+
+.card-title {
+	text-align: center;
+	font-weight: 400;
+  position: relative;
+  float: left;
+  z-index: 60;
+  width: 203px;
+  height: 3.615em;
+  margin: -4.231em 0 0 9.387755102%;
+}
+
+.card-title h2 a{
+	color: rgba(248, 184, 74, 1);
+}
+
+.card-title h2 a:hover{
+	color: rgba(255, 216, 148, 1);
+}
+
+/* ====Styles for dynamic Cards END=====*/
+
+/* ====Styles for Tags Page=====*/
+
+.tags-divs{
+	height: 400px;
+	margin-top: 20px;
+	width: 600px; 
+	margin: 20px auto;
+}
+.popular{
+	font-size: 0.7em;
+}
+.v-popular{
+	font-size: 0.9em;
+}
+.vv-popular{
+	font-size: 1.1em;
+}
+.vvv-popular{
+	font-size: 1.3em;
+}
+.vvvv-popular{
+	font-size: 1.5em;
+}
+.vvvvvvvv-popular{
+	font-size: 1.7em;
+}
+
+/* ====Styles for Tags Page END=====*/
+
+/* ====Styles for Comments Section=====*/
+#comments-container{
+	height: 400px;
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: rgba(255, 234, 198, 1);
+}
+
+.comments{
+	text-align: center;
+	font-weight: 400;
+}
+
+.commenting-field{
+	display:flex;
+}
+
+.commenting-field input{
+	background-color: #ffffff;
+}
+
+.commenting-explanation{
+	display:none;
+}
+
+#comment-form #submit{
+	position:absolute;
+	left: 430px;
+	width: 200px;
+	height: 50px;
+}
+/* ====Styles for Comments Section END=====*/
+
+/* ====Styles for items/show Page=====*/
+
+#primary-2{
+	position:relative;
+	margin: 0 auto;
+	min-height: 300px;
+	height: auto;
+	width: 960px;
+	top: 260px;
+	padding: 20px;
+	background-color: #5B162E;
+}
+
+.items-main-image{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background: url(../images/bg-swirl.png);
+	background-color: rgba(197, 125, 0, 1);
+}
+
+.items-main-image img{
+	display:block;
+	margin: 0 auto;
+	height:500px;
+	width:auto;
+}
+
+.items-info{
+	width: 100%;
+	min-height: 500px;
+	height: auto;
+	background-color: #ffffff;
+}
+
+#primary-2 .items-title-tags{
+	width: 920px;
+	height: 80px;
+	display: block;
+	
+
+}
+.items-title-hz{
+	width: 60%;
+	float: left;
+	padding: 20px;
+	height: 100px;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: rgba(230, 150, 12, 1);
+}
+
+.items-tags-hz{
+	width: 40%;
+	height: 100px;
+	float:left;
+	padding: 10px;
+}
+
+.items-tags-hz a{
+	color: #f46b9b;
+	padding: 2px;
+	font-style: italic;
+}
+
+.items-tags-hz a:hover{
+	text-decoration: underline;
+}
+
+.items-more-info{
+
+	min-height: 100px;
+	height:auto;
+	padding: 20px;
+	font-weight: 400;
+	font-size: 0.8em;
+	color: rgba(82, 82, 82, 1);
+	font-style: italic; 
+}
+
+.items-stories-hz{
+	padding: 0px 20px 20px 20px;
+}
+
+/* ====Styles for items/show Page END=====*/
+
+ul.item-pagination.navigation{
+	display:flex;
+	padding-left: 300px;
+}
+li#previous-item.previous{
+	padding-right: 100px;
+}
