@@ -37,7 +37,11 @@ _*some plugins depend on other plugins to work_
 ## Todo
 * ~~Templating web pages~~
 * ~~Moving to live server~~
+<<<<<<< HEAD
 * ~~Link everything to database. Problematic issues/pages includes (26th July 2015, 9:07pm):~~
+=======
+* Link everything to database. Problematic issues/pages includes (28th July 2015, 12:05pm):
+>>>>>>> 1b162eaa6bf93f9a2580da340b580050260a8cd1
   * ~~register~~
   * ~~login~~
   * ~~lost password~~
