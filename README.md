@@ -37,11 +37,11 @@ _*some plugins depend on other plugins to work_
 ## Todo
 * ~~Templating web pages~~
 * ~~Moving to live server~~
-* Link everything to database. Problematic issues/pages includes (26th July 2015, 9:07pm):
+* ~~Link everything to database. Problematic issues/pages includes (26th July 2015, 9:07pm):~~
   * ~~register~~
   * ~~login~~
   * ~~lost password~~
-  * search function
+  * ~~search function~~
   * ~~featured item~~
   * ~~featured collection~~
   * ~~items/browse~~
@@ -49,8 +49,7 @@ _*some plugins depend on other plugins to work_
   * ~~items/tags~~
   * ~~collections/show~~
   * ~~collections/browse~~
-  * disclaimer text
-
+  * ~~disclaimer text~~
 
 
 
@@ -70,6 +69,7 @@ I've designed this theme based on one of the listed websites in the AWWWARDS web
 * To configure HTML layout for login/forgotpassword etc pages, head to _application/views/scripts/users_ folder.
 * To configure HTML layout for SignUp page, head to _plugins/GuessUser/views/public/user_ folder.
 * Wrap everything between header and footer, a div with an id 'primary'.
+* Need to learn how to properly 'hack' the search function.
 
 ## Useful Resources (Omeka Development)
 * Displaying total number of items (http://omeka.org/forums/topic/display-total-items-in-omeka-20)
