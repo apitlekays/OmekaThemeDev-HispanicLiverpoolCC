@@ -1,19 +1,28 @@
 body {
   background-color: rgb(174, 174, 174);
-  font: 300 0.813em/1.38 Roboto;
+  font-family: 'Roboto', sans-serif;
   color: rgba(0, 0, 0, 1);
+}
+
+p {
+	font-weight: 300;
+	line-height: 120%;
+}
+
+ol {
+	list-style-type: decimal;
 }
 
 .number-items button {
   top: -0.1em;
-  left: 53.427641369%;
+  left: 60%;
   z-index: 21;
-  width: 45.5700334821%;
+  width: 40%;
   height: 2.9em;
   border: 0.2em solid rgb(91, 22, 46);
   border-radius: 2.4em;
   background-color: rgba(222, 222, 222, 0);
-  font-size: 1.538em;
+  font-size: 1.3em;
   font-weight: 700;
   color: rgb(91, 22, 46);
 }
@@ -35,7 +44,7 @@ button {
 
 footer {
   position: relative;
-  top: 19.923em;
+  top: 17.5em;
   left: 0;
   right: 0;
   z-index: 3;
@@ -114,7 +123,7 @@ header img {
 }
 
 header section {
-  top: 13.462em;
+  top: 10.96em;
   z-index: 36;
   height: 6.538em;
   background-color: #5b162e;
@@ -152,7 +161,7 @@ section {
 .about-collection a{
   float: right;
   margin: 1.538em 39.98122% 0 0;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(247, 185, 74);
@@ -174,7 +183,7 @@ section {
 .contact a{
   float: left;
   margin-left: 10.56212%;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(247, 185, 74);
@@ -193,7 +202,7 @@ section {
 
 .desc-title {
   float: left;
-  font-size: 1.538em;
+  font-size: 1.6em;
   font-weight: 700;
   line-height: 1.38;
   color: rgb(247, 185, 74);
@@ -240,7 +249,7 @@ section {
 
 .featured-collection .item-title2{
 	position:absolute;
-	top:235px;
+	top:285px;
 }
 
 .featured-collection a{
@@ -274,7 +283,7 @@ section {
 
 .featured-container-main {
 	position:relative;
-  top: 19.923em;
+  top: 17.5em;
   z-index: 19;
   height: 25.769em;
   background-color: rgb(255, 229, 187);
@@ -302,8 +311,14 @@ section {
 
 .featured-item .item-title{
 	position:absolute;
-	top:235px;
+	top:285px;
+	width: 90%;
 }
+
+.disclaimer p{
+	width: 700px;
+}
+
 
 .featured-item a{
 	color: rgb(247,185, 74);
@@ -313,12 +328,18 @@ section {
 	color: rgba(255, 222, 164, 1);
 }
 
+.about-collection,
+.how-contribute {
+	position: relative;
+	top: 9px;
+}
+
 .home a{
   position: absolute;
   top: 0;
   left: -0.171858217%;
   z-index: 39;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(247, 185, 74);
@@ -329,7 +350,7 @@ section {
   top: 1.538em;
   right: 25.5532786885%;
   z-index: 33;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(247, 185, 74);
@@ -368,7 +389,7 @@ section {
   right: 0;
   z-index: 15;
   margin: 0 auto;
-  font-size: 1.077em;
+  font-size: 1em;
   font-weight: 700;
   line-height: 1.38;
   text-align: center;
@@ -415,7 +436,6 @@ section {
 
 .main_header {
   position: absolute;
-  top: 0.692em;
   left: 0;
   right: 0;
   z-index: 45;
@@ -426,7 +446,7 @@ section {
 
 .main_menu {
   position: absolute;
-  top: 10.385em;
+  top: 8em;
   left: 69.4989106753%;
   z-index: 40;
   width: 30.3921568627%;
@@ -436,7 +456,7 @@ section {
 .main_title {
   float: left;
   margin-left: 1.43885%;
-  font-size: 2.308em;
+  font-size: 1.6em;
   font-weight: 100;
   line-height: 1.38;
   color: #f7b94a;
@@ -444,10 +464,10 @@ section {
 
 .number {
   position: absolute;
-  top: 0.65em;
+  top: 0.8em;
   left: 0;
   z-index: 20;
-  font-size: 1.538em;
+  font-size: 1.25em;
   font-weight: 500;
   line-height: 1.38;
   color: rgb(91, 22, 46);
@@ -455,9 +475,9 @@ section {
 
 .number-collection {
 	position:relative;
-	top: 19.923em;
+	top: 17.5em;
   z-index: 23;
-  height: 8.462em;
+  height: 8em;
   background-color: rgb(247, 185, 74);
 }
 
@@ -478,7 +498,7 @@ section {
 
 .pro-desc-main {
 	position:relative;
-  top: 19.923em;
+  top: 17.5em;
   z-index: 30;
   height: 25.385em;
   background-color: rgb(91, 22, 46);
@@ -494,7 +514,7 @@ section {
 .project_page a{
   float: left;
   margin-left: 27.26817%;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(247, 185, 74);
@@ -521,7 +541,7 @@ section {
   float: left;
   clear: both;
   margin-left: 1.43885%;
-  font-size: 1.231em;
+  font-size: 0.83em;
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 5px;
@@ -541,7 +561,7 @@ section {
 .featured-text,
 .tags-cloud {
   margin: 0 auto;
-  font-size: 1.538em;
+  font-size: 1.2em;
   font-weight: 700;
   line-height: 1.38;
   text-align: center;
@@ -554,7 +574,7 @@ section {
 	min-height: 300px;
 	height: auto;
 	width: 960px;
-	top: 260px;
+	top: 17.5em;
 	padding: 20px 30px;
 	background-color: rgba(255, 229, 186, 1);
 }
@@ -621,7 +641,7 @@ form {
 .field-2 {
   width: 80.3033292231%;
   height: 5.154em;
-  margin: 1.308em auto 0;
+  margin: 0 auto 0;
 
 }
 
@@ -675,6 +695,8 @@ form {
 
 .inputs-3 textarea{
 	padding: 10px;
+	height: 150px;
+	width: 500px;
 }
 
 #recaptcha_widget_div{
@@ -723,8 +745,10 @@ em{
 }
 
 .searchbar input{
-	width: 300px;
-	height: 45px;
+	width: 400px;
+	height: 68px;
+	padding-left: 10px;
+	color: white;
 }
 
 /* ====Styles for Search Bar END=====*/
@@ -860,7 +884,14 @@ select {
 
 .register_form #recaptcha_widget_div{
 	position: absolute;
-	top:400px;
+	top:415px;
+	left: 380px;
+}
+
+.noimage{
+	color: white;
+	text-align: center;
+	margin-top: 250px;
 }
 
 /* ====Styles for Registration Form Page END=====*/
@@ -1029,7 +1060,7 @@ select {
   margin: 20px;
   clear: both;
   width: 245px;
-  min-height: 27em;
+  min-height: 25em;
   height:auto;
   /*margin-left: 10%;*/
   background-color: rgba(248, 184, 74, 1);
@@ -1080,6 +1111,10 @@ select {
   margin: 20.308em auto 0;
 }
 
+.card-tags p{
+	font-size: 0.8em;
+}
+
 .card-tags a:hover{
 	text-decoration: underline;
 }
@@ -1092,7 +1127,15 @@ select {
   z-index: 60;
   width: 203px;
   height: 3.615em;
-  margin: -4.231em 0 0 9.387755102%;
+  margin: -6em 0 0 9.387755102%;
+}
+
+.pagination form input{
+	background-color: white;
+	width: 30px;
+	position: relative;
+	top: -8px;
+	left: 100px;
 }
 
 .card-title h2 a{
@@ -1139,6 +1182,7 @@ select {
 	height: 400px;
 	margin-top: 20px;
 	padding-top: 20px;
+	font-size: 0.8em;
 	background-color: rgba(255, 234, 198, 1);
 }
 
@@ -1175,7 +1219,7 @@ select {
 	min-height: 300px;
 	height: auto;
 	width: 960px;
-	top: 260px;
+	top: 17.5em;
 	padding: 20px;
 	background-color: #5B162E;
 }
@@ -1184,8 +1228,7 @@ select {
 	width: 100%;
 	height: 500px;
 	overflow: hidden;
-	background: url(../images/bg-swirl.png);
-	background-color: rgba(197, 125, 0, 1);
+	background-color: rgba(16, 10, 0, 1);
 }
 
 .items-main-image img{
@@ -1215,7 +1258,7 @@ select {
 	padding: 20px;
 	height: 100px;
 	font-weight: 400;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	color: rgba(230, 150, 12, 1);
 }
 
@@ -1242,21 +1285,95 @@ select {
 	height:auto;
 	padding: 20px;
 	font-weight: 400;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	color: rgba(82, 82, 82, 1);
-	font-style: italic; 
 }
 
 .items-stories-hz{
-	padding: 0px 20px 20px 20px;
+	padding: 10px 20px 20px 20px;
+	font-size: 1.1em;
+}
+
+.items-stories-hz p{
+	margin-bottom: 50px;
 }
 
 /* ====Styles for items/show Page END=====*/
 
 ul.item-pagination.navigation{
-	display:flex;
-	padding-left: 300px;
+	display:inline;
+	
 }
 li#previous-item.previous{
 	padding-right: 100px;
+	padding-left: 280px;
+	float: left;
 }
+
+/* ====Styles for Advanced Search Form Page=====*/
+
+#advanced-search-form{
+	height: 700px;
+	margin-top: 30px;
+}
+
+#advanced-search-form input{
+	background-color: white;
+}
+
+#advanced-search-form .submit{
+	height: 50px;
+	margin-top: 30px;
+	width: 150px;
+	background-color: #ee5188;
+}
+
+#advanced-search-form .field{
+	margin-top: 10px;
+
+}
+
+.searchbar i{
+	position: absolute;
+	left: 355px;
+	top: 17px;
+}
+
+#search-keywords{
+	float: left;
+    display: block;
+    height: 80px;
+    width: 100%;
+}
+
+#search-by-range{
+	float: left;
+    display: block;
+    height: 80px;
+    width: 100%;
+}
+
+
+#search-narrow-by-fields{
+	float: left;
+    display: block;
+    min-height: 80px;
+    height:auto;
+    width: 100%;
+}
+
+.search-entry {
+	float: left;
+    display: block;
+    min-height: 40px;
+    height:auto;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+button.add_search{
+	position:relative;
+	margin-bottom: 20px;
+}
+
+/* ====Styles for Advanced Search Form Page END=====*/
