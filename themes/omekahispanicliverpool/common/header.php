@@ -14,6 +14,7 @@
     ?>
   <title><?php echo implode(' &middot; ', $titleParts); ?></title>
   <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,400,100" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   
 <?php fire_plugin_hook('public_head',array('view'=>$this)); ?>
 
@@ -44,13 +45,9 @@
     </div>
     <section class="search-contrib clearfix">
       <div class="sc-bar clearfix">
-	    <form class="searchbar" name="search-form" action="/search" method="get">
-        <input type="search" placeholder="Search the Collection">
-        <input type="hidden" name="query" id="query" value title="Search">
-        <input type="hidden" name="query_type" value="keyword"	id="query_type">
-        <input type="hidden" name="record_types[]" value="Item" id="record_types">
-        <input type="hidden" name="record_types[]" value="File"	id="record_types">
-        <input type="hidden" name="record_types[]" value="Collection" id="record_types">
+	    <form class="searchbar" name="search-form">
+		<a href="/items/browse?search=" id="baseUrl"><i class="fa fa-search fa-2x fa-inverse"></i></a>
+        <input type="text" placeholder="Enter a search term and press the search icon" id="appendUrl">
 	    </form>
         <p class="about-collection"><a href="/about">About the Collection</a></p>
         <p class="how-contribute"><a href="/contribute">How to Contribute</a></p>
