@@ -69,7 +69,7 @@
 			Contributed by: 
 			<!-- Contributor's Name (general)
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Contributor's Name (general)")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Contributor's Name (general)")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -78,7 +78,7 @@
 			Contributed by: 
 			<!-- Contributor's Name - Photo
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Contributor's Name")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Contributor's Name")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -89,7 +89,7 @@
 			Date added:
 			<!-- Date Added
 			=================================================== -->
-			<?php echo format_date(metadata('item', 'added')); ?>
+			<p><?php echo format_date(metadata('item', 'added')); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -99,7 +99,7 @@
 			Photographed by:
 			<!-- Photographer's Name
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Photographer's Name")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Photographer's Name")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -108,7 +108,7 @@
 			Artist's/Creator's name:
 			<!-- Artist's Name
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Artist's/Creator's name")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Artist's/Creator's name")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -117,7 +117,7 @@
 			Date of the photo:
 			<!-- Photo's Date
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Date of the Photo")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Date of the Photo")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -126,7 +126,7 @@
 			Date of interview:
 			<!-- Date of Interview
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Date of interview")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Date of interview")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -135,7 +135,7 @@
 			Date of creation:
 			<!-- Date drawn
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"When was this item drawn/created?")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"When was this item drawn/created?")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -144,7 +144,7 @@
 			Interviewee:
 			<!-- Interviewee
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Interviewee")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Interviewee")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -153,7 +153,7 @@
 			Interviewer:
 			<!-- Interviewer
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Interviewer")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Interviewer")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -162,7 +162,7 @@
 			Document type:
 			<!-- Document type
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Document type")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Document type")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -171,7 +171,7 @@
 			URL:
 			<!-- URL
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"URL")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"URL")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -180,7 +180,7 @@
 			Date of event:
 			<!-- Date/s of event
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Date/s of event")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Date/s of event")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -189,7 +189,7 @@
 			Location:
 			<!-- Document - locations
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Document - locations")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Document - locations")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -198,7 +198,7 @@
 			Location of the interview:
 			<!-- Interview - locations
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Location")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Location")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -207,7 +207,7 @@
 			Location of the photo:
 			<!-- Photo - locations
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Location of the Photo")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Location of the Photo")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -216,7 +216,7 @@
 			Location(s) depicted:
 			<!-- Drawing - locations
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"What location or locations are depicted?")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"What location or locations are depicted?")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -225,7 +225,7 @@
 			People involved:
 			<!-- Document - People
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Document - People")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Document - People")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -234,7 +234,7 @@
 			Duration:
 			<!-- Interview - Duration
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Duration")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Duration")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -243,7 +243,7 @@
 			Materials:
 			<!-- Drawing - Materials used
 			=================================================== -->
-			<?php echo metadata('item', array('Item Type Metadata',"Materials used")); ?>
+			<p><?php echo metadata('item', array('Item Type Metadata',"Materials used")); ?></p>
 			<!-- END -->
 			<br />
 			<?php } ?>
@@ -288,7 +288,7 @@
         <li id="previous-item" class="previous"><?php echo link_to_previous_item_show(); ?></li>
         <li id="next-item" class="next"><?php echo link_to_next_item_show(); ?></li>
     </ul>
-
+<hr>
        <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
 
 

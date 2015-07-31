@@ -9,8 +9,32 @@ p {
 	line-height: 120%;
 }
 
-ol {
-	list-style-type: decimal;
+
+ul li{ 
+   list-style-type: disc; 
+   list-style-position: inside;
+   padding-left: 20px;
+   padding-bottom: 5px; 
+   margin-bottom: 10px; 
+   font-weight: 300;
+}
+ol li{ 
+   list-style-type: decimal; 
+   list-style-position: inside;
+   padding-left: 20px;
+   padding-bottom: 5px; 
+   margin-bottom: 10px; 
+   font-weight: 300;
+}
+ul ul, ol ul { 
+   list-style-type: circle; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
+ol ol, ul ol { 
+   list-style-type: lower-latin; 
+   list-style-position: inside; 
+   margin-left: 15px; 
 }
 
 .number-items button {
@@ -270,6 +294,10 @@ section {
   z-index: 8;
 }
 
+#collection-items{
+	margin-top: 20px;
+}
+
 .featured-container {
   position: absolute;
   top: 1.308em;
@@ -286,7 +314,7 @@ section {
   top: 17.5em;
   z-index: 19;
   height: 25.769em;
-  background-color: rgb(255, 229, 187);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .featured-item {
@@ -734,8 +762,8 @@ em{
 /* ====Styles for Search Bar=====*/
 
 ::-webkit-input-placeholder{
-	color:#ffffff;
-	padding-left: 10px;
+	color:black;
+	padding-left: 5px;
 }
 
 .searchbar{
@@ -748,7 +776,15 @@ em{
 	width: 400px;
 	height: 68px;
 	padding-left: 10px;
-	color: white;
+	color: black;
+	background-color: white;
+}
+
+.searchbar i{
+	position: absolute;
+	left: 355px;
+	top: 17px;
+	color: black;
 }
 
 /* ====Styles for Search Bar END=====*/
@@ -950,18 +986,21 @@ select {
 	float:left;
 	padding-right: 5px;
 	padding-top: 10px;
+	list-style: none;
+	min-height: 20px;
+	height:auto;
 }
 
 .hTagcloud li a{
 		color: #ffffff; 
-		background-color: #ee5188;
+		background-color: #6f0000;
 		border-radius: 5px;
 		padding: 3px; 
 		font-weight: 400;
 }
 
 .hTagcloud li a:hover{
-	background-color: #f46b9b;
+	background-color: rgb(91,22,46);
 }
 /* ====Styles for Tags Cloud END=====*/
 
@@ -1151,7 +1190,8 @@ select {
 /* ====Styles for Tags Page=====*/
 
 .tags-divs{
-	height: 400px;
+	min-height: 950px;
+	height:auto;
 	margin-top: 20px;
 	width: 600px; 
 	margin: 20px auto;
@@ -1177,19 +1217,62 @@ select {
 
 /* ====Styles for Tags Page END=====*/
 
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 /* ====Styles for Comments Section=====*/
 #comments-container{
-	height: 400px;
+	min-height: 400px;
+	height: auto;
 	margin-top: 20px;
 	padding-top: 20px;
 	font-size: 0.8em;
-	background-color: rgba(255, 234, 198, 1);
+	background-color: rgba(255, 255, 255, 1);
 }
 
-.comments{
-	text-align: center;
-	font-weight: 400;
+#comments-container #comment-form{
+	height: 350px;
 }
+
+.comments h2{
+	text-align: left;
+	font-weight: 400;
+	font-size: 2em;
+	color: rgba(230, 150, 12, 1);
+}
+
+.comments {
+	min-height: 200px;
+	height: auto;
+}
+
+#comments-container .comment{
+	min-height: 180px;
+	height: auto;
+	width: 100%;
+	padding: 20px;
+	display: inline-block;
+}
+
+#comments-container .comment-body{
+	min-height: 160px;
+	height:auto;
+	padding-left: 30px;
+	background-color: #fbe5e5;
+}
+
+#comments-container .comment-author img{
+	width: 70px;
+}
+
+.comment-children{
+	border-left: 3px solid #830000;
+	margin-top: 20px;
+}
+
 
 .commenting-field{
 	display:flex;
@@ -1197,6 +1280,7 @@ select {
 
 .commenting-field input{
 	background-color: #ffffff;
+	border: 1px solid #898989;
 }
 
 .commenting-explanation{
@@ -1209,6 +1293,8 @@ select {
 	width: 200px;
 	height: 50px;
 }
+
+
 /* ====Styles for Comments Section END=====*/
 
 /* ====Styles for items/show Page=====*/
@@ -1253,24 +1339,28 @@ select {
 
 }
 .items-title-hz{
-	width: 60%;
+	width: 100%;
 	float: left;
-	padding: 20px;
-	height: 100px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-height: 50px;
+	height:auto;
 	font-weight: 400;
 	font-size: 1.4em;
 	color: rgba(230, 150, 12, 1);
 }
 
 .items-tags-hz{
-	width: 40%;
-	height: 100px;
+	width: 100%;
+	min-height: 10px;
+	height:auto;
 	float:left;
-	padding: 10px;
+	padding: 20px;
 }
 
 .items-tags-hz a{
-	color: #f46b9b;
+	color: #6f0000;
 	padding: 2px;
 	font-style: italic;
 }
@@ -1333,11 +1423,7 @@ li#previous-item.previous{
 
 }
 
-.searchbar i{
-	position: absolute;
-	left: 355px;
-	top: 17px;
-}
+
 
 #search-keywords{
 	float: left;

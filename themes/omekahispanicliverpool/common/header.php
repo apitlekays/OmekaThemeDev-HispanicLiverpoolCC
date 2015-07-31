@@ -26,6 +26,18 @@
     <?php queue_js_file('jquery-min'); ?>
     <?php echo head_js(); ?>
  
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65832942-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </head>
 <body id="home" class="body page-index clearfix admin-bar">
 <!-- Start of Header -->
@@ -46,7 +58,7 @@
     <section class="search-contrib clearfix">
       <div class="sc-bar clearfix">
 	    <form class="searchbar" name="search-form">
-		<a href="/items/browse?search=" id="baseUrl"><i class="fa fa-search fa-2x fa-inverse"></i></a>
+		<a href="/items/browse?search=" id="baseUrl"><i class="fa fa-search fa-2x"></i></a>
         <input type="text" placeholder="Enter a search term and press the search icon" id="appendUrl">
 	    </form>
         <p class="about-collection"><a href="/about">About the Collection</a></p>
