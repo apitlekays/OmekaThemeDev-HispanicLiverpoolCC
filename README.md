@@ -51,8 +51,16 @@ _*some plugins depend on other plugins to work_
   * ~~collections/show~~
   * ~~collections/browse~~
   * ~~disclaimer text~~
-  
-  Awesome
+  * change colour of the tag clouds & tag texts to dark maroon
+  * change colour of the search box to white
+  * featured section background colour to white
+  * comments section background colour to white
+  * separate comments section with hr
+  * title of the items full width
+  * item tags under title
+  * item info headers to be bold
+  * 'Comments' bolded and align left & same colour as item title
+  * image slider for items that has more than one image
 
 
 
