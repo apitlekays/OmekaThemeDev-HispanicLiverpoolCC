@@ -61,6 +61,7 @@ _*some plugins depend on other plugins to work_
   * item info headers to be bold
   * 'Comments' bolded and align left & same colour as item title
   * image slider for items that has more than one image
+  * set up Google Analytics for the site
 
 
 
