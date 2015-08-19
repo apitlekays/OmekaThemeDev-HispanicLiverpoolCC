@@ -6,10 +6,8 @@
       <div class="main-img"></div>
       <div class="pro-desc clearfix">
         <div class="project-desc clearfix">
-          <p class="desc-title">Project Description</p>
-          <p class="desc-text"><?php if ($description = option('description')): ?>
-    <?php echo $description; ?>
-    <?php endif; ?></p>
+          <!-- <p class="desc-title">Project Description</p> -->
+          <p class="desc-text"><?php echo get_theme_option('HLCC Page Description'); ?></p>
         </div>
       </div>
     </div>

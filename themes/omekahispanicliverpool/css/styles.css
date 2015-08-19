@@ -9,6 +9,28 @@ p {
 	line-height: 120%;
 }
 
+.banner { 
+	position: relative; 
+	overflow: auto; 
+}
+
+.banner li { 
+	list-style: none;
+}
+      
+.banner ul li { 
+	float: left; 
+}
+
+.bannerNavigate{
+	position:absolute;
+	z-index: 1;
+	color: #F7B94A;
+	left: 50px;
+	top: 10px;
+	font-size: 0.8em;
+}
+
 
 ul li{ 
    list-style-type: disc; 
@@ -164,10 +186,15 @@ input {
   display: block;
   float: left;
   padding: 5px 2px;
-  background-color: #ee5188;
+  background-color: #ffdd00;
   font-size: 1em;
   line-height: 1.38;
   color: rgba(0, 0, 0, 1);
+  border: 1px solid gainsboro;
+}
+
+form label{
+	font-weight: 500;
 }
 
 section {
@@ -365,7 +392,7 @@ section {
 .home a{
   position: absolute;
   top: 0;
-  left: -0.171858217%;
+  left: 7%;
   z-index: 39;
   font-size: 0.8em;
   font-weight: 400;
@@ -399,6 +426,10 @@ section {
   width: 99.9316077441%;
   height: 19.923em;
   margin-top: 1em;
+}
+
+.img-base img{
+	height: 100%;
 }
 
 .insert-tag-cloud-here {
@@ -475,19 +506,32 @@ section {
 .main_menu {
   position: absolute;
   top: 8em;
-  left: 69.4989106753%;
+  left: 65%;
   z-index: 40;
-  width: 30.3921568627%;
+  width: 40.3921568627%;
   height: 1.308em;
 }
+
+.main_menu i{
+	margin-left: 20px;
+	position:absolute;
+	top:-7px;
+	color: gold;
+}
+
+.main_menu i:hover{
+	color: #fffca0;
+}
+	
 
 .main_title {
   float: left;
   margin-left: 1.43885%;
   font-size: 1.6em;
-  font-weight: 100;
-  line-height: 1.38;
+  font-weight: 300;
+  line-height: 1.2;
   color: #f7b94a;
+  width: 300px;
 }
 
 .number {
@@ -604,7 +648,7 @@ section {
 	width: 960px;
 	top: 17.5em;
 	padding: 20px 30px;
-	background-color: rgba(255, 229, 186, 1);
+	background-color: rgba(255, 255, 255, 1);
 }
 
 #primary h1{
@@ -641,7 +685,7 @@ section {
 }
 
 #contact-form #send{
-	background-color: #ee5188;
+	background-color: #ffdd00;
 	position:absolute;
 	top: 580px;
 	left: 280px;
@@ -794,7 +838,7 @@ em{
 #contribution-item-metadata{
 	text-align: center;
 	width: 595px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 
@@ -842,6 +886,7 @@ select {
 	height: 50px;
 	position:absolute;
 	left: 380px;
+	margin-top: 20px;
 }
 
 #contribution-type-form{
@@ -853,6 +898,7 @@ select {
 #contribution-type-form h2{
 	font-size: 1.5em;
 	font-weight: 700;
+	margin-bottom: 20px;
 
 }
 
@@ -869,11 +915,12 @@ select {
 	background-color: rgba(255, 255, 255, 0);
 }
 
-#contribution-type-form textarea {
+textarea {
 	width: 595px;
 	height: 100px;
 	padding: 10px;
 	margin-bottom: -55px;
+	border: 1px solid gainsboro;
 }
 
 #contribution-type-form .explanation {
@@ -910,7 +957,7 @@ select {
 }
 
 .register_form #submit{
-	background-color: #ee5188;
+	background-color: #ffdd00;
 	position:absolute;
 	top: 550px;
 	left:350px;
@@ -955,7 +1002,7 @@ select {
 }
 
 #login-form #submit{
-	background-color: #ee5188;
+	background-color: #ffdd00;
 }
 
 .login-divs{
@@ -984,10 +1031,10 @@ select {
 
 .hTagcloud li{
 	float:left;
-	padding-right: 5px;
-	padding-top: 10px;
+	/*padding-right: 5px;
+	padding-top: 10px;*/
 	list-style: none;
-	min-height: 20px;
+	min-height: 10px;
 	height:auto;
 }
 
@@ -1003,6 +1050,45 @@ select {
 	background-color: rgb(91,22,46);
 }
 /* ====Styles for Tags Cloud END=====*/
+
+/* ====Styles for Sort Bar=====*/
+
+#sort-links{
+	color:white;
+	margin: 10px;
+	height: 40px;
+	padding: 5px;
+	background-color: #5b162e;
+}
+
+.sort-label{
+	float:left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+#sort-links .sort-label{
+	font-weight: 400;
+}
+
+#sort-links li{
+	display: inline;
+	float:left;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+
+#sort-links li a{
+	color: #ffc400;
+}
+
+#sort-links li a:hover{
+	color: #ffe48b;
+}
+
+
+/* ====Styles for Sort Bar END=====*/
+
 
 /* ====Styles for Forgot Password Page=====*/
 
@@ -1068,23 +1154,6 @@ select {
 	width: 33%;
 	vertical-align: middle;
 }
-
-#sort-links{
-	margin: 10px;
-	height: 40px;
-	padding: 5px;
-	background-color: #f8cfcf;
-}
-
-#sort-links .sort-label{
-	font-weight: 400;
-}
-
-#sort-links li{
-	display: inline;
-	float:left;
-	padding-right: 20px;
-}
 /* ====Styles for items/browse Page END=====*/
 
 /* ====Styles for dynamic Cards=====*/
@@ -1127,6 +1196,10 @@ select {
   height: 18.923em;
   margin: 0.923em 0 0 5.29337%;
   background-color: rgb(255, 255, 255);
+}
+
+.card-image img{
+	height: 100%;
 }
 
 .card-image-black-bar {
@@ -1394,6 +1467,11 @@ ul.item-pagination.navigation{
 	display:inline;
 	
 }
+
+.item-pagination li{
+	list-style: none;
+}
+
 li#previous-item.previous{
 	padding-right: 100px;
 	padding-left: 280px;
@@ -1415,7 +1493,7 @@ li#previous-item.previous{
 	height: 50px;
 	margin-top: 30px;
 	width: 150px;
-	background-color: #ee5188;
+	background-color: #ffdd00;
 }
 
 #advanced-search-form .field{

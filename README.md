@@ -92,3 +92,5 @@ I've designed this theme based on one of the listed websites in the AWWWARDS web
 * Tutorial on the basics of Omeka Theme development (http://interactivemechanics.com/blog/the-basics-of-building-omeka-themes/)
 * Tutorial on setting up a proper file structure for introducing new pages in Omeka via Simple Pages plugin (http://interactivemechanics.com/blog/page-templates-with-omeka-simple-pages/)
 * Tips on how to edit Featured Items/Collections _(single.php)_ (http://omeka.org/forums/topic/how-to-edit-recently-added-items)
+Below are links to resources specific for Omeka Development.
+* Outputting images attached to an item into a listview (http://omeka.org/forums/topic/output-file-for-itemimages-in-a-list)

@@ -2,16 +2,26 @@
 
 <div id="primary-2">
 	<div class="items-main-image">
+		<?php $files = $item->getFiles(); ?>
+		<?php $numberOfFiles = count($files); ?>
 		<?php $itemImage = files_for_item(array('imageSize' => 'fullsize')); ?>
-		<?php if($itemImage){ ?>
+		<?php if($itemImage && $numberOfFiles == 1){ ?>
 		<!-- Files
 =================================================== -->
 <?php echo files_for_item(array('imageSize' => 'fullsize')); ?>
-<!-- END -->
+		<?php } elseif ($itemImage && $numberOfFiles > 1){ ?>
+		<?php echo '<div class="banner">' ?>
+			<?php echo '<p class="bannerNavigate">You can use arrow keys (<i class="fa fa-arrow-left"> </i> <i class="fa fa-arrow-right"></i>) on the keyboard to navigate through this image slider. Hover your mouse pointer on an image to pause the slider.</p>' ?>
+			<?php echo "<ul>" ?>
+			<?php $files = $item->getFiles(); ?>
+			<?php foreach ($files as $file){ ?>
+			<?php echo "<li><img src='" . file_display_url($file, $format = 'fullsize') . "'></li>"; ?>
+			<?php } ?>
+			<?php echo "</ul></div>" ?>
 		<?php } else { ?>
 		<?php echo '<p class="noimage">There is no image for this dataset</p>' ?>
 		<?php } ?>
-	</div>
+	</div><!-- END -->
 	<div class="items-info">
 		<div class="items-title-tags">
 			<div class="items-title-hz">
@@ -292,8 +302,18 @@
        <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
 
 
-    
+
+  
 	</div>
 </div> <!-- End of Primary. -->
+
+<script>
+	$(function(){
+		$('.banner').unslider({
+			dots:true,
+			keys:true
+		});
+	});
+</script>
 
  <?php echo foot(); ?>

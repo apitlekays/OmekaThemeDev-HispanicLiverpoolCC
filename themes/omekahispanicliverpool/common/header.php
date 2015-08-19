@@ -13,7 +13,7 @@
     $titleParts[] = option('site_title');
     ?>
   <title><?php echo implode(' &middot; ', $titleParts); ?></title>
-  <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,400,100" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,300,700,500,400,100" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   
 <?php fire_plugin_hook('public_head',array('view'=>$this)); ?>
@@ -24,6 +24,7 @@
     <?php echo head_css();?>
 <!-- JavaScripts-->
     <?php queue_js_file('jquery-min'); ?>
+    <?php queue_js_file('unslider.min'); ?>
     <?php echo head_js(); ?>
  
 <!-- Google Analytics -->
@@ -44,15 +45,15 @@
 <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
   <header>
     <div class="main_header">
-	  <div class="warwick-logo-new"></div>
+	  <a href="http://www2.warwick.ac.uk/"><div class="warwick-logo-new"></div></a>
       <a href="/"><div class="site_title clearfix">
         <p class="main_title"><?php echo option('site_title'); ?></p>
-        <p class="subtitle">COMMUNITY COLLECTION</p>
       </div></a>
       <div class="main_menu clearfix">
         <p class="home"><a href="/">Home</a></p>
         <p class="project_page"><a href="http://www2.warwick.ac.uk/fac/arts/modernlanguages/research/hispanic/hispanicliverpool/" target="_blank">Project Page</a></p>
         <p class="contact"><a href="/contact">Contact Us</a></p>
+        <a href="<?php echo get_theme_option('Facebook Link');?>" target="_blank"><i class="fa fa-facebook-official fa-2x fa-inverse"></i></a>
       </div>
     </div>
     <section class="search-contrib clearfix">
