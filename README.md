@@ -37,7 +37,7 @@ _*some plugins depend on other plugins to work_
 ## Todo
 * ~~Templating web pages~~
 * ~~Moving to live server~~
-* Link everything to database. Problematic issues/pages includes (31st July 2015, 6:31pm):
+* ~~Link everything to database. Problematic issues/pages includes:~~
 
   * ~~register~~
   * ~~login~~
@@ -62,7 +62,7 @@ _*some plugins depend on other plugins to work_
   * ~~item info headers to be bold~~
   * ~~'Comments' bolded and align left & same colour as item title~~
   * ~~resolve list styling in Contribute Page~~
-  * image slider for items that has more than one image
+  * ~~image slider for items that has more than one image~~
   * ~~set up Google Analytics for the site~~
 
 
